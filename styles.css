@@ -1,35 +1,57 @@
-/* Defina o fundo do site */
 body {
-  background-color: #f4f4f4;
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
 
-/* Adicionar um cabeçalho com bordas */
-header {
-  background-color: #4CAF50;
-  color: white;
-  padding: 10px 0;
-  text-align: center;
-  font-size: 1.5em;
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
 }
 
-/* Estilos para os inputs e botões */
-input, button {
-  padding: 10px;
-  margin: 10px 0;
-  border-radius: 5px;
-  border: 1px solid #ccc;
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+    display: block;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
 }
 
 button {
-  background-color: #4CAF50;
-  color: white;
-  cursor: pointer;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 button:hover {
-  background-color: #45a049;
+    background-color: #45a049;
 }
 
+h2 {
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+}
