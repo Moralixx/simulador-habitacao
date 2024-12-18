@@ -18,7 +18,7 @@ document.getElementById("calcular").addEventListener("click", function() {
     // Calculando a parcela mensal
     const parcelaMensal = (valorEmprestimo * taxaJuros) / (1 - Math.pow(1 + taxaJuros, -numeroParcelas));
 
-    // Exibindo o resultado
+    // Exibindo o resultado no campo com id="resultado"
     const resultado = `O valor da sua parcela mensal é: €${parcelaMensal.toFixed(2)}`;
     document.getElementById("resultado").textContent = resultado;
 });
