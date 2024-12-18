@@ -1,3 +1,4 @@
+// Este código vai ser executado quando o botão for clicado
 document.getElementById("calcular").addEventListener("click", function() {
     // Pegando os valores digitados pelo usuário
     const preco = parseFloat(document.getElementById("preco").value);
@@ -7,7 +8,7 @@ document.getElementById("calcular").addEventListener("click", function() {
     // Verificando se os valores são válidos
     if (isNaN(preco) || isNaN(entrada) || isNaN(anos) || preco <= 0 || entrada < 0 || anos <= 0) {
         alert("Por favor, insira valores válidos.");
-        return;
+        return; // Se os valores não forem válidos, o cálculo não é feito
     }
 
     // Calculando o valor do empréstimo
